@@ -14,7 +14,15 @@ mamba activate contacts
 python -m ipykernel install --user --name contacts --display-name "contacts"
 ```
 
-Select the **contacts** kernel when opening the notebooks.
+or alternatively: 
+
+```bash
+mamba env create -f environment.yml
+mamba activate contacts
+```
+
+
+Select the **contacts** kernel when opening the notebooks via IDE.
 
 ## Pipeline
 
@@ -70,3 +78,5 @@ Chimera contacts and H-bonds are the source of truth. Downstream aggregation:
 - **Water-mediated** — taken only from the H-bond file (not from the contacts export). A water-mediated link is a residue pair connected through at least one shared water.
 
 Residue–residue difference maps and SS heatmaps report absolute counts per state and deltas along the nucleotide transitions above.
+
+Notebooks tested using software versions listed in environment.yml on Mac OS X 15.6.1
