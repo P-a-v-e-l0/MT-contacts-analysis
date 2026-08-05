@@ -79,4 +79,9 @@ Chimera contacts and H-bonds are the source of truth. Downstream aggregation:
 
 Residue–residue difference maps and SS heatmaps report absolute counts per state and deltas along the nucleotide transitions above.
 
+## Notes
+
 Notebooks tested using software versions listed in environment.yml on Mac OS X 15.6.1
+Typical environment install time 1 minute. 
+Expected output as seen in https://www.biorxiv.org/content/10.64898/2026.06.19.733065v1.full; Supplementary figure S4-S8
+Expected runtime less than 10 minutes
